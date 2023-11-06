@@ -88,8 +88,3 @@ function phoneNo(phoneno) {
     return /^\d{10}$/.test(phoneno);
 }
 
-form.addEventListener("submit", myFunction);
-
-function myFunction() {
-  alert("The form was submitted");
-}
